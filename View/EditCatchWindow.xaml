@@ -1,0 +1,41 @@
+﻿<Window x:Class="Sample.View.EditCatchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:convert="clr-namespace:Sample.Converters"
+        xmlns:local="clr-namespace:Sample.View"
+        mc:Ignorable="d"
+        Title="EditCatchWindow" Height="400" Width="500">
+    <Window.Resources>
+        <convert:FromVisitIdToDepDate x:Key="fromIdToDate"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox FontSize="20" Grid.Row="0 "  materialDesign:HintAssist.Hint="Дата выхода на улов:" Text="{Binding VisitId,  Converter={StaticResource fromIdToDate}}" 
+         Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="20 10"/>
+        <TextBox FontSize="20" Grid.Row="1"  materialDesign:HintAssist.Hint="Тип рибы:"  Text="{Binding FishType}" 
+   Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="20 10"/>
+        <TextBox FontSize="20" Grid.Row="2 "  materialDesign:HintAssist.Hint="Вес улова:"  Text="{Binding CatchWeight}" 
+   Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="20 10"/>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button  materialDesign:ButtonProgressAssist.Value="-1"
+    materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+    materialDesign:ButtonProgressAssist.IsIndeterminate="True" Content="Отмена" Grid.Column="0" Margin="20 10" Click="Button_Click_1"/>
+            <Button  materialDesign:ButtonProgressAssist.Value="-1"
+    materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+    materialDesign:ButtonProgressAssist.IsIndeterminate="True" Content="Ок" Grid.Column="1" Margin="20 10" Click="Button_Click"/>
+        </Grid>
+
+    </Grid>
+</Window>

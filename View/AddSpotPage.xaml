@@ -1,0 +1,67 @@
+﻿<Page x:Class="Sample.View.AddSpotPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:Sample.View"
+      xmlns:validation="clr-namespace:Sample.Validation"
+      mc:Ignorable="d" 
+      
+      d:Height="300" Width="690"
+      Title="AddSpotPage" Height="455">
+    <Page.Resources>
+        <validation:NameValidationRule x:Key="namevalidation"/>
+        <Style x:Key="InputControlErrors" TargetType="{x:Type TextBox}">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="ToolTip"    
+      Value="{Binding RelativeSource={x:Static RelativeSource.Self},    
+                      Path=(Validation.Errors)[0].ErrorContent}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="ComboBoxControlErrors"  TargetType="{x:Type ComboBox}" >
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="ToolTip" 
+                Value="{Binding RelativeSource={x:Static RelativeSource.Self},
+                Path=(Validation.Errors)[0].ErrorContent}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!--Create a template to show if validation fails-->
+        <ControlTemplate x:Key="ErrorTemplate">
+            <DockPanel>
+                <Border BorderBrush="Red" BorderThickness="1" >
+                    <AdornedElementPlaceholder/>
+                </Border>
+                <TextBlock Foreground="Red" FontSize="20" Text="!" />
+            </DockPanel>
+        </ControlTemplate>
+    </Page.Resources>
+    <Grid Margin="0,-42,10,0" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBox Margin="50,86,65,10" FontSize="28" Grid.Row="0"
+           Validation.ErrorTemplate="{StaticResource ErrorTemplate}"
+           materialDesign:HintAssist.Hint="Название банки"  Style="{StaticResource MaterialDesignFloatingHintTextBox}" Grid.Column="1">
+            <TextBox.Text>
+                <Binding Path="SpotName" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <validation:NameValidationRule ValidatesOnTargetUpdated="True"/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Button Style="{StaticResource MaterialDesignRaisedAccentButton}" Grid.Row="1" Content="Добавить" Grid.Column="0" Margin="50,63,65,85" FontSize="18" Grid.ColumnSpan="2" Click="Button_Click"/>
+    </Grid>
+</Page>

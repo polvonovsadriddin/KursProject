@@ -1,0 +1,825 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\model\\hookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:model\\hookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\model\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:model\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\model\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:model\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\viewmodel\\r6viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\r6viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\viewmodel\\r4viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\r4viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\viewmodel\\r1viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\r1viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\addspotpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addspotpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\r6page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\r6page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\r5page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\r5page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\r4page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\r4page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\r3page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\r3page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\r2page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\r2page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\r1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\r1page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\editvisitwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editvisitwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\editvoyagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editvoyagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\editboatwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editboatwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\viewmodel\\boatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\boatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\autorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\autorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\autorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\autorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\addvoyage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addvoyage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\spotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\spotwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\addvisit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addvisit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\converters\\spotsidtospotname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\spotsidtospotname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\converters\\fromvoyageidtocaptain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\fromvoyageidtocaptain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\converters\\fromvisitidtodepdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\fromvisitidtodepdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\viewmodel\\visitviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\visitviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\viewmodel\\voyageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\voyageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\editboatwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editboatwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\addboat.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addboat.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\editcatchwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editcatchwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\addcatch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addcatch.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\editspotwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editspotwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\addspotpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addspotpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\converters\\fromspotnametospotid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\fromspotnametospotid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\viewmodel\\spotviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\spotviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\viewmodel\\request3viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\request3viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\viewmodel\\request2viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\request2viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\viewmodel\\catchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\catchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\converters\\boatidtoboatname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\boatidtoboatname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\editvisitwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editvisitwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\addvisit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addvisit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\converters\\datetostringconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\datetostringconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\editvoyagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\editvoyagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\viewmodel\\r5viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:viewmodel\\r5viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\view\\addvoyage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:view\\addvoyage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\converters\\fromreturndatetovisitid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\fromreturndatetovisitid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|c:\\users\\hp\\desktop\\\u0430\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\hook\\converters\\fromboatnametoboatid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F20EBBEC-74EE-43BE-A011-74561C73D29C}|Hook.csproj|solutionrelative:converters\\fromboatnametoboatid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HookContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Model\\HookContext.cs",
+              "RelativeDocumentMoniker": "Model\\HookContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Model\\HookContext.cs",
+              "RelativeToolTip": "Model\\HookContext.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAUwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:56:43.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "R4Page.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\R4Page.xaml",
+              "RelativeDocumentMoniker": "View\\R4Page.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\R4Page.xaml",
+              "RelativeToolTip": "View\\R4Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T12:36:33.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "R3Page.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\R3Page.xaml",
+              "RelativeDocumentMoniker": "View\\R3Page.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\R3Page.xaml",
+              "RelativeToolTip": "View\\R3Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T12:36:32.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "R2Page.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\R2Page.xaml",
+              "RelativeDocumentMoniker": "View\\R2Page.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\R2Page.xaml",
+              "RelativeToolTip": "View\\R2Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T12:36:31.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "R1Page.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\R1Page.xaml",
+              "RelativeDocumentMoniker": "View\\R1Page.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\R1Page.xaml",
+              "RelativeToolTip": "View\\R1Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T12:36:30.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AutorWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AutorWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AutorWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AutorWindow.xaml.cs",
+              "RelativeToolTip": "View\\AutorWindow.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAApwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:20:12.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "R6ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\R6ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\R6ViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\R6ViewModel.cs",
+              "RelativeToolTip": "ViewModel\\R6ViewModel.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:11:32.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddSpotPage.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AddSpotPage.xaml",
+              "RelativeDocumentMoniker": "View\\AddSpotPage.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AddSpotPage.xaml",
+              "RelativeToolTip": "View\\AddSpotPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T19:30:13.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AutorWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AutorWindow.xaml",
+              "RelativeDocumentMoniker": "View\\AutorWindow.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AutorWindow.xaml",
+              "RelativeToolTip": "View\\AutorWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T20:20:09.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "R1ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\R1ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\R1ViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\R1ViewModel.cs",
+              "RelativeToolTip": "ViewModel\\R1ViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:08:35.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddVoyage.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AddVoyage.xaml",
+              "RelativeDocumentMoniker": "View\\AddVoyage.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AddVoyage.xaml",
+              "RelativeToolTip": "View\\AddVoyage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T20:42:22.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Model\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Model\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Model\\RelayCommand.cs",
+              "RelativeToolTip": "Model\\RelayCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:53:20.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Boat.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Model\\Boat.cs",
+              "RelativeDocumentMoniker": "Model\\Boat.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Model\\Boat.cs",
+              "RelativeToolTip": "Model\\Boat.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:04:00.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditVisitWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditVisitWindow.xaml",
+              "RelativeDocumentMoniker": "View\\EditVisitWindow.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditVisitWindow.xaml",
+              "RelativeToolTip": "View\\EditVisitWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T20:18:12.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\MainWindow.xaml",
+              "RelativeToolTip": "View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T20:14:13.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "R4ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\R4ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\R4ViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\R4ViewModel.cs",
+              "RelativeToolTip": "ViewModel\\R4ViewModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:11:12.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "R5Page.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\R5Page.xaml",
+              "RelativeDocumentMoniker": "View\\R5Page.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\R5Page.xaml",
+              "RelativeToolTip": "View\\R5Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T12:36:34.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "R6Page.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\R6Page.xaml",
+              "RelativeDocumentMoniker": "View\\R6Page.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\R6Page.xaml",
+              "RelativeToolTip": "View\\R6Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T12:36:36.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BoatViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\BoatViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\BoatViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\BoatViewModel.cs",
+              "RelativeToolTip": "ViewModel\\BoatViewModel.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwDUAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:10:00.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T10:19:10.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditVoyageWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditVoyageWindow.xaml",
+              "RelativeDocumentMoniker": "View\\EditVoyageWindow.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditVoyageWindow.xaml",
+              "RelativeToolTip": "View\\EditVoyageWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T23:47:30.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SpotsIdToSpotName.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\SpotsIdToSpotName.cs",
+              "RelativeDocumentMoniker": "Converters\\SpotsIdToSpotName.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\SpotsIdToSpotName.cs",
+              "RelativeToolTip": "Converters\\SpotsIdToSpotName.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:15:15.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "View\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAMwCAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T10:52:27.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FromVoyageIdToCaptain.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\FromVoyageIdToCaptain.cs",
+              "RelativeDocumentMoniker": "Converters\\FromVoyageIdToCaptain.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\FromVoyageIdToCaptain.cs",
+              "RelativeToolTip": "Converters\\FromVoyageIdToCaptain.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:15:06.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditBoatWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditBoatWindow.xaml",
+              "RelativeDocumentMoniker": "View\\EditBoatWindow.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditBoatWindow.xaml",
+              "RelativeToolTip": "View\\EditBoatWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T23:20:58.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SpotWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\SpotWindow.xaml",
+              "RelativeDocumentMoniker": "View\\SpotWindow.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\SpotWindow.xaml",
+              "RelativeToolTip": "View\\SpotWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T20:25:20.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FromVisitIdToDepDate.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\FromVisitIdToDepDate.cs",
+              "RelativeDocumentMoniker": "Converters\\FromVisitIdToDepDate.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\FromVisitIdToDepDate.cs",
+              "RelativeToolTip": "Converters\\FromVisitIdToDepDate.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:14:58.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Addvisit.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\Addvisit.xaml",
+              "RelativeDocumentMoniker": "View\\Addvisit.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\Addvisit.xaml",
+              "RelativeToolTip": "View\\Addvisit.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T20:21:31.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EditBoatWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditBoatWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\EditBoatWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditBoatWindow.xaml.cs",
+              "RelativeToolTip": "View\\EditBoatWindow.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAtwBYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:13:27.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AddBoat.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AddBoat.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AddBoat.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AddBoat.xaml.cs",
+              "RelativeToolTip": "View\\AddBoat.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAjwC0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:13:16.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EditCatchWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditCatchWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\EditCatchWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditCatchWindow.xaml.cs",
+              "RelativeToolTip": "View\\EditCatchWindow.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAtwBYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:13:08.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AddCatch.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AddCatch.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AddCatch.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AddCatch.xaml.cs",
+              "RelativeToolTip": "View\\AddCatch.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAWwCwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:12:51.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EditSpotWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditSpotWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\EditSpotWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditSpotWindow.xaml.cs",
+              "RelativeToolTip": "View\\EditSpotWindow.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAtwBcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:12:37.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddSpotPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AddSpotPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AddSpotPage.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AddSpotPage.xaml.cs",
+              "RelativeToolTip": "View\\AddSpotPage.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAtwCcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:12:25.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "VoyageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\VoyageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\VoyageViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\VoyageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\VoyageViewModel.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAlwFUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:08:25.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "VisitViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\VisitViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\VisitViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\VisitViewModel.cs",
+              "RelativeToolTip": "ViewModel\\VisitViewModel.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAlwDEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:09:24.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FromSpotNameToSpotId.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\FromSpotNameToSpotId.cs",
+              "RelativeDocumentMoniker": "Converters\\FromSpotNameToSpotId.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\FromSpotNameToSpotId.cs",
+              "RelativeToolTip": "Converters\\FromSpotNameToSpotId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:12:15.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SpotViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\SpotViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\SpotViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\SpotViewModel.cs",
+              "RelativeToolTip": "ViewModel\\SpotViewModel.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAmwDIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:11:50.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Request3ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\Request3ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Request3ViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\Request3ViewModel.cs",
+              "RelativeToolTip": "ViewModel\\Request3ViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:11:41.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Request2ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\Request2ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Request2ViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\Request2ViewModel.cs",
+              "RelativeToolTip": "ViewModel\\Request2ViewModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:11:24.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CatchViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\CatchViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CatchViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\CatchViewModel.cs",
+              "RelativeToolTip": "ViewModel\\CatchViewModel.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAmwDAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:10:52.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BoatIdToBoatName.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\BoatIdToBoatName.cs",
+              "RelativeDocumentMoniker": "Converters\\BoatIdToBoatName.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\BoatIdToBoatName.cs",
+              "RelativeToolTip": "Converters\\BoatIdToBoatName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:10:46.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EditVisitWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditVisitWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\EditVisitWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditVisitWindow.xaml.cs",
+              "RelativeToolTip": "View\\EditVisitWindow.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAjwBYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:09:51.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Addvisit.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\Addvisit.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Addvisit.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\Addvisit.xaml.cs",
+              "RelativeToolTip": "View\\Addvisit.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAtwDAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:09:36.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DateToStringConverter.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\DateToStringConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\DateToStringConverter.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\DateToStringConverter.cs",
+              "RelativeToolTip": "Converters\\DateToStringConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:09:31.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EditVoyageWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditVoyageWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\EditVoyageWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\EditVoyageWindow.xaml.cs",
+              "RelativeToolTip": "View\\EditVoyageWindow.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAtwBYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:09:16.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "R5ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\R5ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\R5ViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\ViewModel\\R5ViewModel.cs",
+              "RelativeToolTip": "ViewModel\\R5ViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:09:01.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AddVoyage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AddVoyage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AddVoyage.xaml.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\View\\AddVoyage.xaml.cs",
+              "RelativeToolTip": "View\\AddVoyage.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAWwDEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:08:42.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "FromReturnDateToVisitId.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\FromReturnDateToVisitId.cs",
+              "RelativeDocumentMoniker": "Converters\\FromReturnDateToVisitId.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\FromReturnDateToVisitId.cs",
+              "RelativeToolTip": "Converters\\FromReturnDateToVisitId.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAtwBAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:08:15.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FromBoatNameToBoatId.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\FromBoatNameToBoatId.cs",
+              "RelativeDocumentMoniker": "Converters\\FromBoatNameToBoatId.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F\\Hook\\Converters\\FromBoatNameToBoatId.cs",
+              "RelativeToolTip": "Converters\\FromBoatNameToBoatId.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:07:26.677Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+﻿<Page x:Class="Sample.View.AddCatch"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Sample.View"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+       xmlns:convert="clr-namespace:Sample.Converters"
+      xmlns:validation="clr-namespace:Sample.Validation"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddCatch">
+    <Page.Resources>
+        <convert:FromVisitIdToDepDate x:Key="fromIdToDate"/>
+        <validation:NameValidationRule x:Key="nameValidation" />
+        <validation:OnlyDigitsValidationRule x:Key="onlyDigitsValidation"/>
+        <validation:NotEmpty x:Key="nameEmpty"/>
+        <validation:SelectionValidationRule x:Key="SelectValidate"/>
+        <validation:ComboboxValidationRule x:Key="ComboboxValidate"/>
+        <validation:SelectionValidationStringRule x:Key="SelectValidString"/>
+        <Style x:Key="InputControlErrors" TargetType="{x:Type TextBox}">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="ToolTip"    
+              Value="{Binding RelativeSource={x:Static RelativeSource.Self},    
+                              Path=(Validation.Errors)[0].ErrorContent}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="ComboBoxControlErrors"  TargetType="{x:Type ComboBox}" >
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="ToolTip" 
+                        Value="{Binding RelativeSource={x:Static RelativeSource.Self},
+                        Path=(Validation.Errors)[0].ErrorContent}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!--Create a template to show if validation fails-->
+        <ControlTemplate x:Key="ErrorTemplate">
+            <DockPanel>
+                <Border BorderBrush="Red" BorderThickness="1" >
+                    <AdornedElementPlaceholder/>
+                </Border>
+                <TextBlock Foreground="Red" FontSize="20" Text="!" />
+            </DockPanel>
+        </ControlTemplate>
+    </Page.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="6*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="4" Grid.ColumnSpan="2" >
+
+            <Button Style="{StaticResource MaterialDesignRaisedAccentButton}" Grid.Column="0" Grid.ColumnSpan="2" Margin="20" Content="добавить" Command="{Binding AddBoatCom}" Click="Button_Click"  />
+
+        </Grid>
+
+        <ComboBox  materialDesign:HintAssist.Hint="Дата выхода на улов"    FontSize="20" x:Name="VisitIdCB" Margin="26,0,20,0" DisplayMemberPath="DepartureDate"
+                  SelectedValuePath="VisitId" SelectedValue="{Binding VisitId}" Grid.ColumnSpan="2" Height="66"/>
+
+
+        <ComboBox FontSize="20" materialDesign:HintAssist.Hint="Тип рыба" Grid.Row="1" x:Name="typefish" Margin="26,0,20,0" Grid.ColumnSpan="2" Height="63">
+            <ComboBox.SelectedItem>
+                <Binding Path="FishType" UpdateSourceTrigger="PropertyChanged">
+                  
+                </Binding>
+
+            </ComboBox.SelectedItem>
+        </ComboBox>
+
+        <TextBox  materialDesign:HintAssist.Hint="Вес улова"  Style="{StaticResource MaterialDesignFloatingHintTextBox}"  FontSize="20" Grid.Row="2" x:Name="WeightCatch"  Margin="26,23,20,28" 
+                 Validation.ErrorTemplate="{StaticResource ErrorTemplate}" Grid.ColumnSpan="2">
+            <TextBox.Text>
+                <Binding Path="CatchWeight" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <validation:OnlyDigitsValidationRule ValidatesOnTargetUpdated="True"/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+
+    </Grid>
+</Page>

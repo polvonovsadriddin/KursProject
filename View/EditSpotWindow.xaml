@@ -1,0 +1,32 @@
+﻿<Window x:Class="Sample.View.EditSpotWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sample.View"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="EditSpotWindow" Height="250" Width="530">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox FontSize="20" Grid.Row="0" materialDesign:HintAssist.Hint="Название Банки" Text="{Binding SpotName}" 
+   Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="20 10"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button  materialDesign:ButtonProgressAssist.Value="-1" 
+                     materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                     materialDesign:ButtonProgressAssist.IsIndeterminate="True" 
+                     Grid.Column="0" Content="Отмена" Margin="20,43,20,38" Click="Button_Click_1"  />
+            <Button  materialDesign:ButtonProgressAssist.Value="-1" 
+                     materialDesign:ButtonProgressAssist.IsIndicatorVisible="True" 
+                     materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+                     Grid.Column="1" Content="Ок" Margin="20,43,20,38" Click="Button_Click" />
+        </Grid>
+    </Grid>
+</Window>

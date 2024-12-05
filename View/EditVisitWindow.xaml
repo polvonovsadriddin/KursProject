@@ -1,0 +1,44 @@
+﻿<Window x:Class="Sample.View.EditVisitWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Sample.View"
+        xmlns:convert="clr-namespace:Sample.Converters"
+        mc:Ignorable="d"
+        Title="EditVisitWindow" Height="450" Width="530">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button  materialDesign:ButtonProgressAssist.Value="-1"
+                     materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                     materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+                     IsDefault="True" Grid.Column="0" Margin="20 10" Content="Отменить" Click="Button_Click_1"/>
+            <Button IsDefault="True" Grid.Column="2" Margin="20 10" Content="Ок" Click="Button_Click"
+                     materialDesign:ButtonProgressAssist.Value="-1"
+                    materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                    materialDesign:ButtonProgressAssist.IsIndeterminate="True"/>
+
+        </Grid>
+        <!--<TextBox FontSize="20" Grid.Row="0" materialDesign:HintAssist.Hint="Дата возврашение:" Text="{Binding ArrivalDate}" 
+   Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="20 10"/>-->
+        <DatePicker Margin="20 10" materialDesign:HintAssist.Hint="Дата возврашение:" SelectedDate="{Binding ArrivalDate, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" FontSize="15" Grid.Row="0" Height="57"/>
+        <DatePicker  Margin="20 10"  materialDesign:HintAssist.Hint="Дата выезда:" SelectedDate="{Binding DepartureDate, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" FontSize="15" Grid.Row="1" Height="54"/>
+        <!--<TextBox FontSize="20" Grid.Row="1" materialDesign:HintAssist.Hint="Дата выезда:" Text="{Binding DepartureDate}" 
+   Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="20 10"/>-->
+        <TextBox FontSize="20" Grid.Row="2" materialDesign:HintAssist.Hint="Качество улова:" Text="{Binding CatchQuality}" 
+   Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="20,10,20,10"/>
+
+    </Grid>
+</Window>
